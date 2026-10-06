@@ -191,7 +191,7 @@ def liq_hayduk_minhas_acuoso(VA, T, muB):
 
 def liq_hayduk_minhas_organico(VB, VA, T, muB, sigB):
     """Hayduk-Minhas, solvente orgánico. B = solvente, A = soluto. -> cm²/s"""
-    return 1.55e-8 * VB ** 0.217 * T * 1.29 * sigB * 0.125 / (muB * 0.92 * VA ** 0.45)
+    return 1.55e-8 * VB ** 0.217 * T ** 1.29 * sigB ** 0.125 / (muB ** 0.92 * VA ** 0.45)
 
 def _alpha(xA, A_margules):
     return 1 - 2 * A_margules * xA * (1 - xA)       # 1 + dlnγA/dlnxA (Margules 1 parámetro)
