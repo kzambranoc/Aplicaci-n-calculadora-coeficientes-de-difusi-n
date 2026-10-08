@@ -41,6 +41,7 @@ GAS = {
     "Sulfuro de hidrogeno":      dict(M=34.08,  sig=3.623, eps=301.1,  mu=0.97, Tb=212.8,  Vb=32.9, vf=21.0),
     "Metanol":  dict(M=32.04,  sig=3.626, eps=481.8,  mu=1.70, Tb=337.8,  Vb=42.5, vf=29.9),
     "Cloruro de hidrogeno":  dict(M=36.46,  sig=3.282, eps=205.0,  mu=1.09,  Tb=188.2,  Vb=22.4, vf=15.0),
+         "Cloruro de metilo":  dict(M=50.49,  sig=3.758, eps=305.0,  mu=1.90, Tb=238.6,  Vb=56.0, vf=40.0),
     "Acetona":  dict(M=58.08,  sig=4.600, eps=560.2,  mu=2.88, Tb=329.4,  Vb=77.5, vf=67.7),
 }
 #                    [g/mol],     [K],  [cm³/mol,Tb], phi (asociación), mu [cP a 25 °C], rho [g/cm³], sigma [dina/cm], par = paracoro
